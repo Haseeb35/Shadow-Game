@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="description" content="Shadow Self — a puzzle-platformer where your only ally is who you were 10 seconds ago." />
+  <meta name="theme-color" content="#0b1026" />
+  <title>Shadow Self</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+</head>
+<body>
+  <div id="wrap">
+    <canvas id="game" aria-label="Shadow Self game canvas"></canvas>
+
+    <!-- Touch controls (visible only on touch devices) -->
+    <div id="touch" class="touch" aria-hidden="true">
+      <div class="touch-group touch-left">
+        <button id="btn-left" class="touch-btn" type="button" aria-label="Move left">&#9664;</button>
+        <button id="btn-right" class="touch-btn" type="button" aria-label="Move right">&#9654;</button>
+      </div>
+      <div class="touch-group touch-right">
+        <button id="btn-jump" class="touch-btn touch-jump" type="button" aria-label="Jump">&#11014;</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="src/audio.js"></script>
+  <script src="src/level.js"></script>
+  <script src="src/entities.js"></script>
+  <script src="src/player.js"></script>
+  <script src="src/shadow.js"></script>
+  <script src="src/ui.js"></script>
+  <script src="src/main.js"></script>
+  <!-- Embedded level data fallback so the game also runs when opened via file:// -->
+  <script src="levels/embedded.js"></script>
+</body>
+</html>

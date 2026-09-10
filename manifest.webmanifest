@@ -1,0 +1,12 @@
+{
+  "name": "Shadow Self",
+  "short_name": "Shadow Self",
+  "description": "A puzzle-platformer where your only ally is who you were 10 seconds ago.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "landscape",
+  "background_color": "#060918",
+  "theme_color": "#0b1026",
+  "icons": []
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Fragile Ground",
+  "subtitle": "A floor that fears your shadow",
+  "hint": "Pale stone holds you fine — but it shatters under your shadow's weight. Cross it quickly; if you stand still, your shadow will break the floor right beneath your feet.",
+  "tiles": [
+    ".........................",
+    ".........................",
+    ".........................",
+    ".........................",
+    ".........................",
+    ".........................",
+    ".........................",
+    ".........................",
+    "#####S####FFF######G#####",
+    "##########...############",
+    "##########...############",
+    "##########...############",
+    "##########...############",
+    "##########XXX############"
+  ]
+}
