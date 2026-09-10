@@ -3,6 +3,7 @@
 > *A puzzle-platformer where your only ally is who you were **2 seconds ago**.*
 
 [![Play Now](https://img.shields.io/badge/play-Open%20index.html-brightgreen?style=for-the-badge)](https://github.com/Haseeb35/Shadow-Game)
+[![Live Demo](https://img.shields.io/badge/live-Haseeb35.github.io%2FShadow--Game-blue?style=for-the-badge)](https://haseeb35.github.io/Shadow-Game/)
 [![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)](LICENSE)
 
 Your shadow replays your exact movements — every jump, every step — two seconds late. You cannot touch it and it cannot touch you, but it *can* hold switches, open shadow-only doors, block patrolling guards, absorb turret fire, and shatter fragile floors. Plan ahead, then let your past self do the work.
